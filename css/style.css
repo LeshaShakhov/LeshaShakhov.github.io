@@ -510,6 +510,8 @@ bottom: -40px;
 right: 0;
 z-index:1;
 cursor:pointer;
+display: flex;
+align-items: center;
  }
 .navigation .dot{
     display:inline-block;
