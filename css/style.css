@@ -394,9 +394,6 @@ body {
     background: #352f29;
     height: 380px;
 }
-.col {
-    
-}
 .footer_inner {
     padding-top: 50px;
     display: flex;
@@ -488,61 +485,53 @@ body {
     background: url(../images/bg_1.png) no-repeat center center;
     background-size: 100% 100%;
 }
-	.viewport .slider_1 {
-		 /* Скрываем всё что за блоком слайдера */
-		position:relative;
-		width: 1170px;
-		height: 460px;
-		
-	}
-	.hidden {
-         overflow:hidden;
-    }
-		body .slider_1 .slides {
-           
-			position:relative;
-			transition:1s; /* Задаем время изменения блока, отвечает за плавную прокрутку */
-		}
-		
-			body .slider_1 .slides .slide {
-				float:left;
-				display:block;
-                width: 1170px;
-				height: 460px;
-			}
-		
-			
-	
-	.navigation {
-		position:absolute;
-		width: 100px;
-		bottom: -40px;
-		right: 0;
-		z-index:1;
-		cursor:pointer;
-        	}
-	
-		.navigation .dot{
-			display:inline-block;
-			width:10px;
-			height:10px;
-			background:url(../images/slide.png);
-			cursor:pointer;
-			margin:0 10px;
-	}
-		.navigation .dot:hover {
-            background:url(../images/slide_hover.png);
-        }
-		.navigation .active{
-			background:url(../images/slide_active.png);
-            width:16px;
-			height:16px;
-		}
-        .navigation .active:hover {
-            background:url(../images/slide_active.png);
-            width:16px;
-			height:16px;
-        }
+.viewport .slider_1 {
+    position:relative;
+    width: 1170px;
+    height: 460px;
+}
+.hidden {
+    overflow:hidden;
+}
+body .slider_1 .slides {
+    position:relative;
+    transition:1s; 
+}
+body .slider_1 .slides .slide {
+    float:left;
+    display:block;
+    width: 1170px;
+    height: 460px;
+}
+.navigation {
+position:absolute;
+width: 100px;
+bottom: -40px;
+right: 0;
+z-index:1;
+cursor:pointer;
+ }
+.navigation .dot{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    background:url(../images/slide.png);
+    cursor:pointer;
+    margin:0 10px;
+}
+.navigation .dot:hover {
+    background:url(../images/slide_hover.png);
+}
+.navigation .active{
+    background:url(../images/slide_active.png);
+    width:16px;
+    height:16px;
+}
+.navigation .active:hover {
+    background:url(../images/slide_active.png);
+    width:16px;
+    height:16px;
+}
 
 .slider_2 {
 	width: 900px;
@@ -592,15 +581,22 @@ body {
 .slider_2 .prev-slide:hover {
 	background:  url(../images/left-arrow_hover.png) 11px 30% no-repeat;
 }
-
 .slider_3 {
 	width: 450px;
 	padding: 0 30px;
     margin: 0 auto;
 	position: relative;
 }
-.slider_3::-moz-selection { background: transparent; color: #fff; text-shadow: none; }
-.slider_3::selection { background: transparent; color: #fff; text-shadow: none; }
+.slider_3::-moz-selection {
+    background: transparent;
+    color: #fff;
+    text-shadow: none;
+}
+.slider_3::selection { 
+    background: transparent;
+    color: #fff;
+    text-shadow: none;
+}
 .slider_3 .slide-list {
 	position: relative;
 	margin: 0;
@@ -641,4 +637,3 @@ body {
 .slider_3 .prev-slide:hover {
 	background:  url(../images/left-arrow_hover.png) 11px 45% no-repeat;
 }
-
