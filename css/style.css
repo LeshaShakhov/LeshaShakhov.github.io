@@ -72,6 +72,7 @@ body {
 .nav_menu {
     list-style-type: none;
     font-size: 0;
+    display: flex;
 }
 .nav_menu li {
     display: inline-block;
@@ -453,7 +454,7 @@ body {
 .skype {
     float: right;
 }
-.contact {
+.contact_footer {
     margin-bottom: 20px;
 }
 .social {
